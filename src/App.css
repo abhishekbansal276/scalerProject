@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+#grid {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 5px;
+}
+
+#outer{
+  text-align: center;
+}
+
+.gridDiv {
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  border-radius: 10px;
+}
+
+.gridDiv .nameP{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.gridDiv .uidP{
+  font-size: 15px;
+}
+
+.gridDiv Button {
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border: solid white;
+  text-align: center;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
